@@ -45,12 +45,15 @@ The application allows users to create, view, search, and manage customer suppor
 ```
 ticket-management-system/
 
+ticket-management-system/
+
 ├── backend/
 │   ├── controller/
 │   ├── models/
 │   ├── routes/
 │   ├── server.js
-│   └── package.json
+│   ├── package.json
+│   └── .env.example
 │
 ├── frontend/
 │   ├── src/
@@ -59,7 +62,6 @@ ticket-management-system/
 │   └── package.json
 │
 ├── README.md
-├── .env.example
 └── .gitignore
 ```
 
