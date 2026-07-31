@@ -1,7 +1,6 @@
 const Ticket = require("../models/Ticket");
 
 
-// CREATE TICKET
 exports.createTicket = async (req, res) => {
 
     try {
@@ -28,7 +27,6 @@ exports.createTicket = async (req, res) => {
 
 
 
-// GET ALL TICKETS
 exports.getTickets = async (req, res) => {
 
     try {
@@ -46,7 +44,6 @@ exports.getTickets = async (req, res) => {
     }
 };
 
-// GET SINGLE TICKET
 exports.getSingleTicket = async (req, res) => {
 
     try {
@@ -69,7 +66,6 @@ exports.getSingleTicket = async (req, res) => {
     }
 
 };
-// UPDATE TICKET
 exports.updateTicket = async (req, res) => {
 
     try {
@@ -110,7 +106,6 @@ exports.updateTicket = async (req, res) => {
 
 };
 
-// SEARCH TICKETS
 exports.searchTickets = async (req, res) => {
 
     try {
@@ -141,7 +136,6 @@ exports.searchTickets = async (req, res) => {
 };
 
 
-// FILTER BY STATUS
 exports.filterTickets = async (req,res)=>{
 
     try{
@@ -163,7 +157,6 @@ exports.filterTickets = async (req,res)=>{
     }
 
 };
-// DELETE TICKET
 exports.deleteTicket = async (req, res) => {
   try {
     const ticket = await Ticket.findById(req.params.id);
