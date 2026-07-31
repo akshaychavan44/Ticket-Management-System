@@ -201,8 +201,7 @@ https://ticket-management-system-mlcm.onrender.com
 
 Frontend:
 
-```
-Add frontend deployment URL here
+https://ticket-management-frontend-hbl5.onrender.com```
 ```
 
 ---
