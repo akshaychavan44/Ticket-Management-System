@@ -23,5 +23,4 @@ function App() {
   );
 }
 
-// Only ONE export default at the very bottom!
 export default App;
